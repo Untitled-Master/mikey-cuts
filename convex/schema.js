@@ -1,0 +1,77 @@
+import { defineSchema, defineTable } from "convex/server";
+import { v } from "convex/values";
+
+export default defineSchema({
+  shorts: defineTable({
+    title: v.string(),
+    duration: v.string(),
+    views: v.string(),
+    platform: v.string(),
+    src: v.string(),
+    url: v.string(),
+  }),
+  projects: defineTable({
+    id: v.string(),
+    title: v.string(),
+    category: v.string(),
+    duration: v.string(),
+    aspect: v.string(),
+    channel: v.string(),
+    channelUrl: v.string(),
+    channelLogo: v.optional(v.string()),
+    meta: v.string(),
+    desc: v.string(),
+    preview: v.string(),
+    videoUrl: v.string(),
+    views: v.string(),
+    date: v.string(),
+  }),
+  longFormProjects: defineTable({
+    id: v.number(),
+    title: v.string(),
+    category: v.string(),
+    duration: v.string(),
+    aspect: v.string(),
+    meta: v.string(),
+    desc: v.string(),
+    preview: v.string(),
+    videoUrl: v.string(),
+  }),
+  reviews: defineTable({
+    quote: v.string(),
+    author: v.string(),
+    role: v.string(),
+    rating: v.number(),
+    logo: v.optional(v.string()),
+  }),
+  channels: defineTable({
+    name: v.string(),
+    views: v.string(),
+    logo: v.string(),
+    url: v.string(),
+  }),
+  faq: defineTable({
+    q: v.string(),
+    a: v.string(),
+  }),
+  mainVid: defineTable({
+    id: v.string(),
+    title: v.string(),
+    category: v.string(),
+    duration: v.string(),
+    aspect: v.string(),
+    meta: v.string(),
+    desc: v.string(),
+    preview: v.string(),
+    videoUrl: v.string(),
+  }),
+  connect: defineTable({
+    platform: v.string(),
+    handle: v.string(),
+    url: v.string(),
+  }),
+  admins: defineTable({
+    username: v.string(),
+    passwordHash: v.string(),
+  }),
+});

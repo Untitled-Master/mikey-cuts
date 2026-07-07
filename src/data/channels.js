@@ -1,10 +1,46 @@
 const channels = [
-  { name: "AniMates", views: "14.2M views", logo: "https://yt3.ggpht.com/o8mvguy4NjoXm3dQxREqGjzkxNgazyvDQr0V0lzk2gkFvukg27zPVyHYtasV1GMRfko_PT69Kus=s800-c-k-c0x00ffffff-no-rj", url: "https://youtube.com" },
-  { name: "Webaizer", views: "8.1M views", logo: "https://yt3.ggpht.com/ScTO-OpA5h5vlH-2Rou6WQavV6wpy5Erd8-dBj3kjjhuUJMeUUoUuQn_BjvuQ9ECBqiz0FM=s800-c-k-c0x00ffffff-no-rj", url: "https://youtube.com" },
-  { name: "ReyBad", views: "22.7M views", logo: "https://yt3.ggpht.com/ytc/AIdro_nDvQy0427doP8bmW_hQ2by1lrWuCN6Vq1dAGbZ2wHaQ-M=s800-c-k-c0x00ffffff-no-rj", url: "https://youtube.com" },
-  { name: "AURA EDITORIAL", views: "5.4M views", logo: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=150&auto=format&fit=crop", url: "https://youtube.com" },
-  { name: "SENSORY GRID", views: "11.9M views", logo: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=150&auto=format&fit=crop", url: "https://youtube.com" },
-  { name: "KINETIC CO.", views: "18.3M views", logo: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=150&auto=format&fit=crop", url: "https://youtube.com" }
+  { 
+    name: "AZAMSENPAI", 
+    views: "",
+    logo: "https://yt3.ggpht.com/_Xccleql4bRNPLqv3BJdf7x3Mpqsk9UPds0nx3My-bK0EqpULwAX9o6ulr3XOifCiTqFwuh9iCo=s800-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@AZAMSENPAI" 
+  },
+  { 
+    name: " 3ADEL l عادل", 
+    views: "",
+    logo: "https://yt3.ggpht.com/A2LjXmePQ2dm6RwQJWNHTLwaxj1_Rvcsipe7vNtQH-OGkid0kEOfj8diURPlx6CC7WZm1pbNMA=s800-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@3AdeIL" 
+  },
+  { 
+    name: "Basharkk", 
+    views: "",
+    logo: "https://yt3.ggpht.com/quWaWwkn0-azJjXaMGd9fH6mn9wdptAGAJb8eaBlfSmobUWosi8nv4hO7ZQC7QIDmD-ZAGhA8w=s800-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@Basharkk" 
+  },
+  { 
+    name: "skysoul سكاي سول", 
+    views: "",
+    logo: "https://yt3.ggpht.com/JRCkzOrByqUYVdYasYPRHsVgAzK0ro8369Ar8C656WoabmyeR23Nnnjunrkb60N6CVa2AtLJqQ=s800-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@skysoul" 
+  },
+  {
+    name: "Reybad - ريباد",
+    views: "",
+    logo: "https://yt3.ggpht.com/ytc/AIdro_nDvQy0427doP8bmW_hQ2by1lrWuCN6Vq1dAGbZ2wHaQ-M=s800-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@reybad"
+  },
+  {
+    name: "AniMates",
+    views: "",
+    logo: "https://yt3.ggpht.com/o8mvguy4NjoXm3dQxREqGjzkxNgazyvDQr0V0lzk2gkFvukg27zPVyHYtasV1GMRfko_PT69Kus=s800-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@itsanimates"
+  },
+  {
+    name: "مصعب يحيى",
+    views: "",
+    logo: "https://yt3.ggpht.com/w0xJGLmuACc4jWFWZ0BZRIvq7xqa2x5O1ITmXRnhzGDTN_SVWdGZElMfPLKVTucS2X8vjIUm=s240-c-k-c0x00ffffff-no-rj", 
+    url: "https://www.youtube.com/@ay_shay"
+  }
 ];
 
 export default channels;
