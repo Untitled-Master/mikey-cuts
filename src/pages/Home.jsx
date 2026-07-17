@@ -477,7 +477,7 @@ export default function HomePage() {
               className="absolute inset-0 w-full h-full object-cover opacity-[0.1]"
             > 
             {/* this is where u put the new video source */}
-              <source src="https://cdn.pixabay.com/video/2023/11/21/190002-887067381_large.mp4" type="video/mp4" />
+              <source src="./show.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-br from-[#070708] via-transparent to-[#070708]/80" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#070708] via-transparent to-transparent" />
