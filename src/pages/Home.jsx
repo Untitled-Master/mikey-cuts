@@ -474,7 +474,7 @@ export default function HomePage() {
               loop
               muted
               playsInline
-              className="absolute inset-0 w-full h-full object-cover opacity-[0.1]"
+              className="absolute inset-0 w-full h-full object-cover opacity-[0.6]"
             > 
             {/* this is where u put the new video source */}
               <source src="./show.mp4" type="video/mp4" />
